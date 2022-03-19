@@ -1,1 +1,21 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: green;
+}
+.container-fluid {
+  width: 400px;
+  height: 600px;
+  padding: 40px;
+  margin-top: 60px;
+}
+.suitTop {
+  height: 30%;
+}
+.cardNumber {
+  height: 50%;
+}
+.suitBottom {
+  height: 15%;
+  transform: rotate(180deg);
+}
+/*make font larger*/
